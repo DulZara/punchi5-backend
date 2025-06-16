@@ -4,6 +4,5 @@ firebase-service-account.json
 
 echo "serviceAccountKey.json" >> .gitignore
 git add .gitignore
-git commit -m "chore: ignore serviceAccountKey.json"
-
-serviceAccountKey.json
+git rm --cached serviceAccountKey.json
+git commit -m "chore: ignore and remove serviceAccountKey.json"
